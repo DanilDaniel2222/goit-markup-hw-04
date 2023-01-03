@@ -123,6 +123,10 @@ body{
     padding-bottom: 192px;
     text-align: center;
     background-color: var(--black-color);
+    background-image: url('../images/people-office-low.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .title-solutions {
@@ -162,6 +166,8 @@ body{
     padding-top: 120px;
 }
 
+
+
 .visually-hidden-skills {
       position: absolute;
       white-space: nowrap;
@@ -182,6 +188,42 @@ body{
     padding-left: 0;
     padding-right: 0;
     gap: 24px;
+}
+
+.skill::before{
+    display: flex;
+    outline: 1px solid transparent;
+    content: "";
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background: #F4F4FD;
+    border-radius: 4px;
+}
+.icon-antenna::before{
+    background-image: url('../images/antenna-icon.svg');
+    block-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-clock::before{
+    background-image: url('../images/clock-icon.svg');
+    block-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-diagram::before{
+    background-image: url('../images/diagram-icon.svg');
+    block-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-astronaut::before{
+    background-image: url('../images/astronaut-icon.svg');
+    block-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .skill{
