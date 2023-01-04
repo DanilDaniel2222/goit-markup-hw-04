@@ -127,6 +127,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .title-solutions {
@@ -325,6 +326,39 @@ body{
     margin-top: 8px;
 }
 
+.section-customers{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.title-customers{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: var(--black-color);
+    margin-bottom: 72px;
+}
+
+.list-icons-customers{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    list-style: none;
+}
+.icon-customers{
+    width: 168px;
+    height: 88px;
+    margin-right: 24px;
+    outline: 1px solid black;
+    justify-content: center;
+}
+
 
 .background-footer{
     padding-top: 100px;
@@ -367,6 +401,9 @@ body{
 .background-footer{
     background-color: var(--black-color);
 }
+
+
+
 
 
 
