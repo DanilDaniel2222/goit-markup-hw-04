@@ -326,6 +326,8 @@ body{
     margin-top: 8px;
 }
 
+
+
 .section-customers{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -471,11 +473,11 @@ body{
       margin: -1px;
   } 
 
-/*.img{
+.img{
     display: block;
     max-width: 100%;
     height: auto;
-}*/
+}
 
 .portfolio-images{
     list-style: none;
