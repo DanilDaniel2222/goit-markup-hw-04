@@ -131,7 +131,8 @@ body{
     background-position: center;
     background-size: cover;
     max-width: 1440px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .title-solutions {
@@ -329,6 +330,12 @@ body{
     width: 40px;
     height: 40px;
 }
+.team-link:hover,
+.team-link:focus{
+    background: orange;
+}
+
+
 
 
 
@@ -353,25 +360,37 @@ body{
     color: var(--black-color);
     margin-bottom: 72px;
 }
-.list-customers{
+.customers-list{
     list-style: none;
     display: flex;
-    gap: 24px;
     justify-content: center;
-
+    gap: 24px;
 }
-.background-icon-customers{
+
+
+.customers-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
-.icon-customers{
-    display: flex;
-    justify-content: center;
-    padding-top: 16px;
+.customers-icon{
+    fill: #8E8F99;
+    width: 104px;
+    height: 56px;
 }
 
+.customers-link:hover,
+.customers-link:focus{
+    border: 1px solid #404BBF;
+}
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon{
+    fill: #404BBF;
+}
 
 
 
@@ -440,6 +459,10 @@ body{
     align-items: center;
     width: 40px;
     height: 40px;
+}
+.footer-link:hover,
+.footer-link:focus{
+    background: #31D0AA;
 }
 
 
