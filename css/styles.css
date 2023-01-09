@@ -130,6 +130,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .title-solutions {
@@ -162,6 +164,7 @@ body{
 .button-order-service:focus,
 .button-order-service:active{
     background-color: var(--dark-blue-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -281,6 +284,8 @@ body{
     background-color: var(--brand-white-color);
     display: block;
     width: 100%;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .image-person:not(:last-child){
     margin-right: 24px;
@@ -307,25 +312,27 @@ body{
     margin-top: 8px;
 }
 
-.list-icons-person{
+.team-list-icons{
     list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
 }
-.icon-person{
+
+.team-link{
     background-color: #4D5AE5 ;
     border-radius: 50%;
     display: flex;
-}
-.icon-icon{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
 }
+
+
+
+
 
 
 
@@ -419,20 +426,23 @@ body{
     color: var(--brand-white-color);
 }
 
-.list-icons-footer{
+.footer-list-icons{
     list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     gap: 16px;
     margin-top: 16px;
 }
-
-.icon-footer{
+.footer-link{
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
 }
+
+
 
 .background-footer{
     background-color: var(--black-color);
@@ -475,6 +485,7 @@ body{
     color: var(--brand-white-color);
     background-color: var(--dark-blue-color);
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-buttons .item+.item{
@@ -520,6 +531,10 @@ body{
     flex-wrap: wrap;
     padding-right: 0;
     padding-left: 0;
+}
+.portfolio-images:hover,
+.portfolio-images:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .link{
