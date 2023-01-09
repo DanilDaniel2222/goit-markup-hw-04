@@ -186,6 +186,7 @@ body{
 .list-skills{
     list-style: none;
     display: flex;
+    align-items: center;
     padding-left: 0;
     padding-right: 0;
     gap: 24px;
@@ -198,9 +199,11 @@ body{
     height: 112px;
     margin-bottom: 8px;
 }
+
 .icon-skills{
-    width: 64px;
-    height: 64px;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
 }
 
 .skill{
@@ -302,11 +305,19 @@ body{
     margin-top: 8px;
 }
 
-.icon-instagram{
-    width: 20px;
-    height: 20px;
-    fill: blue;
+.list-icons-person{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
 
+}
+.icon-person{
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -331,12 +342,20 @@ body{
     display: flex;
     gap: 24px;
     justify-content: center;
+
 }
 .background-icon-customers{
     width: 168px;
     height: 88px;
-    border: 1px solid black;
+    border: 1px solid grey;
+    border-radius: 4px;
 }
+.icon-customers{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
 
 
 .background-footer{
@@ -346,6 +365,9 @@ body{
 .position{
     display: flex;
     justify-content: space-between;
+}
+.footer-position-2{
+    margin-left: 120px;
 }
 
 
@@ -394,11 +416,11 @@ body{
     flex-direction: row;
     align-items: flex-start;
     gap: 16px;
+    margin-top: 16px;
 }
 
 .icon-footer{
-    width: 40px;
-    height: 40px;
+    
 }
 
 
